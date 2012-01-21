@@ -31,12 +31,13 @@ I've not yet upgraded to the latest 5.0 betas, but I'm told that these shortcuts
 My latest app, [App Swipe](http://itunes.apple.com/us/app/app-swipe/id482494990?mt=8&partnerId=30&siteID=BcMBY/pRbWY), started out as the code you see here. Originally when iOS5 settings shortcuts 
 were made available I wanted a simple way to use them on my device. The only way I found described on line was using bookmarks, or setting a custom homescreen icon with the data url.
 At first I didn't think that it would be a problem using notifications for shortcuts, its a natural fit for quickly adjusting brightness or toggling wifi/bluetooth
-and something I know Android users have had for a while (and something been available in the jailbreak world for ever) but unfortunately the app was rejected as the 'prefs' url scheme that is used
-to launch settings directly is a private url scheme.
-I won't go into the whole 2 month process of getting App Swipe approved, suffice to say it is now live and plays by the rules.
+and something I know Android users have had for a while and something been available in the jailbreak world for ever but unfortunately the app was rejected as the 'prefs' url scheme that is used
+to launch settings directly is a private url scheme.  
+
+I won't go into the whole 2 month process of getting App Swipe approved, suffice to say that local notifications are not a feature ;-)  
 I hope you find this project useful but I wouldn't recommend submitting to the AppStore :)
 
-This app has a shortcut to App Swipe added on the main view controller, i'd be most grateful if you checked it out, or told your friends about it.
+This app has a shortcut to App Swipe added on the main view controller, i'd be most grateful if you checked it out, or told your friends or Tweeted about it.
 Whilst not having local notifications it does allow custom shortcuts for mail, iMessage, Twitter etc and includes an interesting 'worldwide custom URL trends' feature which I hope
 will ultimately make more people aware of the cool things that custom URLs can do.
 

@@ -24,7 +24,8 @@ I had already localised the settings names for the original app into French, Ger
 **Note** - The notifications won't keep appearing at the top of your screen when you set them and will be available until you clear them.
 
 I've not yet upgraded to the latest 5.0 betas, but I'm told that these shortcuts will **no longer work** in future firmware releases.
-(When i've submitted an enhancement request I shall add the ID here, feel free to duplicate. Or if you have already submitted one, please make me aware via [@nikburns](http://www.twitter.com/nikburns)
+
+(When I submitted an enhancement request via Bugreporter mine wasn't the first, **10380471 is the original ID**, please duplicate if you feel your app would benefit from this functionality)
 
 ##History
 

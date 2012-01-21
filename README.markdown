@@ -5,14 +5,13 @@
 ##Install
 
 Works right out of the box, just download/clone and run. (You may want to add your own nice app icon though)
----
 
 More about me at [Burnsoft.co.uk](http://www.burnsoft.co.uk)
 
 ![image](http://dl.dropbox.com/u/2935294/notificationView.png)
 ![image](http://dl.dropbox.com/u/2935294/settingsView.png)
 
-## To use
+##To use
 
 Once launched simple choose which settings to have added to your local notification centre (I'm british, so its re not er over here)
 Hit save.
@@ -23,7 +22,9 @@ can display is 10.
 
 The notifications won't keep appearing at the top of your screen and will also be available until you clear them.
 
-## History
+I had already localised the settings names for the original app into French, Spanish, German, Italian and Spanish, so I've included the lot in this project.
+
+##History
 
 My latest app, [App Swipe](http://itunes.apple.com/us/app/app-swipe/id482494990?mt=8&partnerId=30&siteID=BcMBY/pRbWY), started out as the code you see here. Originally when iOS5 settings shortcuts 
 were made available I wanted a simple way to use them on my device. The only way I found described on line was using bookmarks, or setting a custom homescreen icon with the data url.
@@ -42,7 +43,7 @@ Nik
 
 
 
-## Licence
+##Licence
 
 Copyright (c) 2012 Burnsoft Ltd
 

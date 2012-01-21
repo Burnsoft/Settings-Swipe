@@ -6,7 +6,6 @@
 
 Works right out of the box, just download/clone and run. (You may want to add your own nice app icon though)
 
-More about me at [Burnsoft.co.uk](http://www.burnsoft.co.uk)
 
 ![image](http://dl.dropbox.com/u/2935294/notificationView.png)
 ![image](http://dl.dropbox.com/u/2935294/settingsView.png)
@@ -41,6 +40,7 @@ will ultimately make more people aware of the cool things that custom URLs can d
 Happy swiping, 
 Nik
 
+More about me at [Burnsoft.co.uk](http://www.burnsoft.co.uk)
 
 
 ##Licence

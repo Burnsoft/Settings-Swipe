@@ -1,35 +1,73 @@
 //
 //  AppDelegate.m
-//  Settings Swipe
+//  AppSwipe
 //
 //  Created by Nicholas Burns on 20/01/2012.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Burnsoft Ltd. All rights reserved.
 //
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
-@synthesize viewController = _viewController;
+@synthesize userActionCount,localCount;
 
 - (void)dealloc
 {
     [_window release];
-    [_viewController release];
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    localCount = 0; // suppress firing notifications when first set
+    userActionCount = 0;
+    
+    [[UIApplication sharedApplication]registerForRemoteNotificationTypes: UIRemoteNotificationTypeAlert]; 
+
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+    notificationSettingsViewController *rootViewController = [[notificationSettingsViewController alloc] init];
+        UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    
+    self.window.rootViewController = navController;
+    [rootViewController release];
     [self.window makeKeyAndVisible];
+    
+    
+    UILocalNotification *localNotif = [launchOptions
+                                       objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
+    	
+    if (localNotif) {
+        NSString *cURL = [localNotif.userInfo objectForKey:@"chosenURL"];
+        [self fireURLChosenByUser:cURL];
+    }
+    
     return YES;
+}
+
+
+
+-(void)fireURLChosenByUser:(NSString*)cURL;
+{
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:cURL]];
+	
+}
+
+
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
+{
+    if(userActionCount > 0){        
+        userActionCount --; // suppress firing when being set
+    }
+    else {        
+        if (notification) {
+            NSString *cURL = [notification.userInfo objectForKey:@"chosenURL"];
+            [self fireURLChosenByUser:cURL];
+        }
+    }
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

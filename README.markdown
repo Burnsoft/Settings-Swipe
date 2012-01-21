@@ -43,7 +43,7 @@ will ultimately make more people aware of the cool things that custom URLs can d
 Happy swiping, 
 Nik
 
-More about me at [Burnsoft.co.uk](http://www.burnsoft.co.uk)'
+More about me at [Burnsoft.co.uk](http://www.burnsoft.co.uk)  
 Follow me on twitter [@nikburns](http://www.twitter.com/nikburns)
 
 ##Licence

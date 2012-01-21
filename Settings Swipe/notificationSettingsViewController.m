@@ -275,7 +275,7 @@
 -(void)fireUpTheAppStore;
 {
 
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://itunes.apple.com/us/app/app-swipe/id482494990?ls=1&mt=8"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://itunes.apple.com/us/app/app-swipe/id482494990?mt=8&partnerId=30&siteID=BcMBY/pRbWY"]];
 
 }
 

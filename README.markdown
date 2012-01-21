@@ -1,4 +1,4 @@
-## Settings Swipe - your iOS settings where they should be, right at your finger tips
+## Settings Swipe - your iOS settings where they should be, right at your finger tips.
 
 ---
 
@@ -12,19 +12,19 @@ Works right out of the box, just download/clone and run. (You may want to add yo
 
 ##To use
 
-1. Once launched simply choose which settings you want to have added to your local notification centre
+1. Once launched simply choose which settings shortcuts you want to have added to your local notification centre.
 2. Hit save.
-3. No step 3. Shortcuts can now be accessed from anywhere.
+3. No step 3. Shortcuts can now be accessed from anywhere by swiping down.
 
-You may have to adjust the number of notifications that your device can show from within your device settings. Default is 5 and the maximum to you
+You may have to adjust the number of notifications that your device can show from within your device settings. Default is 5 and the maximum you
 can display is 10. I like to re-order the notifications so this app is at the top.
 
-I had already localised the settings names for the original app into French, Spanish, German, Italian and Spanish, so I've included the lot in this project.
+I had already localised the settings names for the original app into French, German, Italian and Spanish, so I've included them all in this project.
 
 **Note** - The notifications won't keep appearing at the top of your screen when you set them and will be available until you clear them.
 
 I've not yet upgraded to the latest 5.0 betas, but I'm told that these shortcuts will **no longer work** in future firmware releases.
-
+(When i've submitted an enhancement request I shall add the ID here, feel free to duplicate. Or if you have already submitted one, please make me aware via [@nikburns](http://www.twitter.com/nikburns)
 
 ##History
 
@@ -43,7 +43,7 @@ will ultimately make more people aware of the cool things that custom URLs can d
 Happy swiping, 
 Nik
 
-More about me at [Burnsoft.co.uk](http://www.burnsoft.co.uk)
+More about me at [Burnsoft.co.uk](http://www.burnsoft.co.uk)'
 Follow me on twitter [@nikburns](http://www.twitter.com/nikburns)
 
 ##Licence

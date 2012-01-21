@@ -12,14 +12,14 @@ Works right out of the box, just download/clone and run. (You may want to add yo
 
 ##To use
 
-Once launched simple choose which settings to have added to your local notification centre (I'm british, so its re not er over here)
-Hit save.
-That's it.
+1. Once launched simple choose which settings to have added to your local notification centre
+2. Hit save.
+3. That's it.
 
 You may have to adjust the number of notifications that your device can show from within your device settings. Default is 5 and the maximum to you
-can display is 10.
+can display is 10. I like to re-order the notifications so this is at the top.
 
-The notifications won't keep appearing at the top of your screen and will also be available until you clear them.
+The notifications won't keep appearing at the top of your screen when you set them and will be available until you clear them. (so likely there for a long time ;-) )
 
 I had already localised the settings names for the original app into French, Spanish, German, Italian and Spanish, so I've included the lot in this project.
 

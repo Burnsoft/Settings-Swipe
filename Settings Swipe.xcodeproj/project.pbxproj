@@ -12,48 +12,25 @@
 		81D86DC714CA283200BC7CE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D86DC614CA283200BC7CE5 /* CoreGraphics.framework */; };
 		81D86DCD14CA283200BC7CE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81D86DCB14CA283200BC7CE5 /* InfoPlist.strings */; };
 		81D86DCF14CA283200BC7CE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D86DCE14CA283200BC7CE5 /* main.m */; };
-		81F568D414CA2B0100D35863 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81F568D614CA2B0100D35863 /* Localizable.strings */; };
-		81F568E114CA2B7E00D35863 /* settingsURLs-French.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81F568DC14CA2B7E00D35863 /* settingsURLs-French.plist */; };
-		81F568E214CA2B7E00D35863 /* settingsURLs-German.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81F568DD14CA2B7E00D35863 /* settingsURLs-German.plist */; };
-		81F568E314CA2B7E00D35863 /* settingsURLs-Italian.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81F568DE14CA2B7E00D35863 /* settingsURLs-Italian.plist */; };
-		81F568E414CA2B7E00D35863 /* settingsURLs-Spanish.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81F568DF14CA2B7E00D35863 /* settingsURLs-Spanish.plist */; };
-		81F568E514CA2B7E00D35863 /* settingsURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81F568E014CA2B7E00D35863 /* settingsURLs.plist */; };
-		81F568E914CA2B8900D35863 /* settingsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F568E614CA2B8900D35863 /* settingsIcon.png */; };
-		81F568EA14CA2B8900D35863 /* settingsIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F568E714CA2B8900D35863 /* settingsIcon@2x.png */; };
-		81F568EB14CA2B8900D35863 /* launch_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F568E814CA2B8900D35863 /* launch_iphone.png */; };
-		81F568EE14CA2B9200D35863 /* notificationSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F568ED14CA2B9200D35863 /* notificationSettingsViewController.m */; };
-		81F568F114CA2B9B00D35863 /* timerAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F568F014CA2B9B00D35863 /* timerAction.m */; };
-		81F568F414CA2BB600D35863 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F568F314CA2BB600D35863 /* AppDelegate.m */; };
+		81D86DD314CA283200BC7CE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D86DD214CA283200BC7CE5 /* AppDelegate.m */; };
+		81D86DD614CA283200BC7CE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D86DD514CA283200BC7CE5 /* ViewController.m */; };
+		81D86DD914CA283300BC7CE5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81D86DD714CA283300BC7CE5 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		81D86DBE14CA283200BC7CE5 /* Settings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Settings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D86DBE14CA283200BC7CE5 /* Settings Swipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Settings Swipe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D86DC214CA283200BC7CE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		81D86DC414CA283200BC7CE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		81D86DC614CA283200BC7CE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81D86DCA14CA283200BC7CE5 /* Settings Swipe-Info.plist */ = {isa = PBXFileReference; path = "Settings Swipe-Info.plist"; sourceTree = "<group>"; };
 		81D86DCC14CA283200BC7CE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81D86DCE14CA283200BC7CE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		81D86DD014CA283200BC7CE5 /* Settings Swipe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Settings Swipe-Prefix.pch"; sourceTree = "<group>"; };
-		81D86DE214CA289600BC7CE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = "en.lproj/Settings Swipe-Info.plist"; sourceTree = "<group>"; };
-		81F568D514CA2B0100D35863 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		81F568D814CA2B1300D35863 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		81F568D914CA2B1C00D35863 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		81F568DA14CA2B2800D35863 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
-		81F568DB14CA2B3000D35863 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		81F568DC14CA2B7E00D35863 /* settingsURLs-French.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "settingsURLs-French.plist"; sourceTree = "<group>"; };
-		81F568DD14CA2B7E00D35863 /* settingsURLs-German.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "settingsURLs-German.plist"; sourceTree = "<group>"; };
-		81F568DE14CA2B7E00D35863 /* settingsURLs-Italian.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "settingsURLs-Italian.plist"; sourceTree = "<group>"; };
-		81F568DF14CA2B7E00D35863 /* settingsURLs-Spanish.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "settingsURLs-Spanish.plist"; sourceTree = "<group>"; };
-		81F568E014CA2B7E00D35863 /* settingsURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settingsURLs.plist; sourceTree = "<group>"; };
-		81F568E614CA2B8900D35863 /* settingsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsIcon.png; sourceTree = "<group>"; };
-		81F568E714CA2B8900D35863 /* settingsIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingsIcon@2x.png"; sourceTree = "<group>"; };
-		81F568E814CA2B8900D35863 /* launch_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_iphone.png; sourceTree = "<group>"; };
-		81F568EC14CA2B9200D35863 /* notificationSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notificationSettingsViewController.h; sourceTree = "<group>"; };
-		81F568ED14CA2B9200D35863 /* notificationSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = notificationSettingsViewController.m; sourceTree = "<group>"; };
-		81F568EF14CA2B9B00D35863 /* timerAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timerAction.h; sourceTree = "<group>"; };
-		81F568F014CA2B9B00D35863 /* timerAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = timerAction.m; sourceTree = "<group>"; };
-		81F568F214CA2BB600D35863 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		81F568F314CA2BB600D35863 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81D86DD014CA283200BC7CE5 /* Settings Swipe-Prefix.pch */ = {isa = PBXFileReference; path = "Settings Swipe-Prefix.pch"; sourceTree = "<group>"; };
+		81D86DD114CA283200BC7CE5 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		81D86DD214CA283200BC7CE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81D86DD414CA283200BC7CE5 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		81D86DD514CA283200BC7CE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		81D86DD814CA283300BC7CE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +59,7 @@
 		81D86DBF14CA283200BC7CE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81D86DBE14CA283200BC7CE5 /* Settings.app */,
+				81D86DBE14CA283200BC7CE5 /* Settings Swipe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,10 +77,11 @@
 		81D86DC814CA283200BC7CE5 /* Settings Swipe */ = {
 			isa = PBXGroup;
 			children = (
-				81F568F214CA2BB600D35863 /* AppDelegate.h */,
-				81F568F314CA2BB600D35863 /* AppDelegate.m */,
-				81D86DE114CA286F00BC7CE5 /* plists */,
-				81D86DE014CA286C00BC7CE5 /* Classes */,
+				81D86DD114CA283200BC7CE5 /* AppDelegate.h */,
+				81D86DD214CA283200BC7CE5 /* AppDelegate.m */,
+				81D86DD414CA283200BC7CE5 /* ViewController.h */,
+				81D86DD514CA283200BC7CE5 /* ViewController.m */,
+				81D86DD714CA283300BC7CE5 /* ViewController.xib */,
 				81D86DC914CA283200BC7CE5 /* Supporting Files */,
 			);
 			path = "Settings Swipe";
@@ -112,39 +90,12 @@
 		81D86DC914CA283200BC7CE5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				81F568E614CA2B8900D35863 /* settingsIcon.png */,
-				81F568E714CA2B8900D35863 /* settingsIcon@2x.png */,
-				81F568E814CA2B8900D35863 /* launch_iphone.png */,
-				81F568D614CA2B0100D35863 /* Localizable.strings */,
-				81D86DE314CA289600BC7CE5 /* Settings Swipe-Info.plist */,
+				81D86DCA14CA283200BC7CE5 /* Settings Swipe-Info.plist */,
 				81D86DCB14CA283200BC7CE5 /* InfoPlist.strings */,
 				81D86DCE14CA283200BC7CE5 /* main.m */,
 				81D86DD014CA283200BC7CE5 /* Settings Swipe-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		81D86DE014CA286C00BC7CE5 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				81F568EF14CA2B9B00D35863 /* timerAction.h */,
-				81F568F014CA2B9B00D35863 /* timerAction.m */,
-				81F568EC14CA2B9200D35863 /* notificationSettingsViewController.h */,
-				81F568ED14CA2B9200D35863 /* notificationSettingsViewController.m */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		81D86DE114CA286F00BC7CE5 /* plists */ = {
-			isa = PBXGroup;
-			children = (
-				81F568DC14CA2B7E00D35863 /* settingsURLs-French.plist */,
-				81F568DD14CA2B7E00D35863 /* settingsURLs-German.plist */,
-				81F568DE14CA2B7E00D35863 /* settingsURLs-Italian.plist */,
-				81F568DF14CA2B7E00D35863 /* settingsURLs-Spanish.plist */,
-				81F568E014CA2B7E00D35863 /* settingsURLs.plist */,
-			);
-			name = plists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,7 +115,7 @@
 			);
 			name = "Settings Swipe";
 			productName = "Settings Swipe";
-			productReference = 81D86DBE14CA283200BC7CE5 /* Settings.app */;
+			productReference = 81D86DBE14CA283200BC7CE5 /* Settings Swipe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -181,10 +132,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				fr,
-				de,
-				it,
-				es,
 			);
 			mainGroup = 81D86DB314CA283100BC7CE5;
 			productRefGroup = 81D86DBF14CA283200BC7CE5 /* Products */;
@@ -202,15 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81D86DCD14CA283200BC7CE5 /* InfoPlist.strings in Resources */,
-				81F568D414CA2B0100D35863 /* Localizable.strings in Resources */,
-				81F568E114CA2B7E00D35863 /* settingsURLs-French.plist in Resources */,
-				81F568E214CA2B7E00D35863 /* settingsURLs-German.plist in Resources */,
-				81F568E314CA2B7E00D35863 /* settingsURLs-Italian.plist in Resources */,
-				81F568E414CA2B7E00D35863 /* settingsURLs-Spanish.plist in Resources */,
-				81F568E514CA2B7E00D35863 /* settingsURLs.plist in Resources */,
-				81F568E914CA2B8900D35863 /* settingsIcon.png in Resources */,
-				81F568EA14CA2B8900D35863 /* settingsIcon@2x.png in Resources */,
-				81F568EB14CA2B8900D35863 /* launch_iphone.png in Resources */,
+				81D86DD914CA283300BC7CE5 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				81D86DCF14CA283200BC7CE5 /* main.m in Sources */,
-				81F568EE14CA2B9200D35863 /* notificationSettingsViewController.m in Sources */,
-				81F568F114CA2B9B00D35863 /* timerAction.m in Sources */,
-				81F568F414CA2BB600D35863 /* AppDelegate.m in Sources */,
+				81D86DD314CA283200BC7CE5 /* AppDelegate.m in Sources */,
+				81D86DD614CA283200BC7CE5 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,24 +177,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		81D86DE314CA289600BC7CE5 /* Settings Swipe-Info.plist */ = {
+		81D86DD714CA283300BC7CE5 /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				81D86DE214CA289600BC7CE5 /* en */,
+				81D86DD814CA283300BC7CE5 /* en */,
 			);
-			name = "Settings Swipe-Info.plist";
-			sourceTree = "<group>";
-		};
-		81F568D614CA2B0100D35863 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				81F568D514CA2B0100D35863 /* en */,
-				81F568D814CA2B1300D35863 /* fr */,
-				81F568D914CA2B1C00D35863 /* de */,
-				81F568DA14CA2B2800D35863 /* it */,
-				81F568DB14CA2B3000D35863 /* es */,
-			);
-			name = Localizable.strings;
+			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -311,7 +237,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Settings Swipe/Settings Swipe-Prefix.pch";
 				INFOPLIST_FILE = "Settings Swipe/Settings Swipe-Info.plist";
-				PRODUCT_NAME = Settings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -322,7 +248,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Settings Swipe/Settings Swipe-Prefix.pch";
 				INFOPLIST_FILE = "Settings Swipe/Settings Swipe-Info.plist";
-				PRODUCT_NAME = Settings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -346,7 +272,6 @@
 				81D86DDE14CA283300BC7CE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

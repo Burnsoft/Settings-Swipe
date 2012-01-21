@@ -7,7 +7,7 @@
 Works right out of the box, just download/clone and run. (You may want to add your own nice app icon though)
 
 
-![image](http://dl.dropbox.com/u/2935294/notificationView.png)
+![image](http://dl.dropbox.com/u/2935294/notificationView.png)  
 ![image](http://dl.dropbox.com/u/2935294/settingsView.png)
 
 ##To use

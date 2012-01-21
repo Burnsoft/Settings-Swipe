@@ -1,7 +1,8 @@
 ## Settings Swipe - your iOS settings where they should be, right at your finger tips
+
 ---
 
-**Install**:
+##Install
 
 Works right out of the box, just download/clone and run. (You may want to add your own nice app icon though)
 ---

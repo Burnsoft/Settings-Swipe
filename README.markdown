@@ -31,6 +31,10 @@ I had submitted an enhancement request to allow notification centre to be used a
 duplicate if you feel your app would benefit from this functionality.
 **10380471 is the original ID**
 
+##Customisations
+
+Edit the plists to add your own custom URL's, tel, sms, etc. Once you've used notification centre for frequent actions, you won't go back.
+
 ##History
 
 My latest app, [App Swipe](http://itunes.apple.com/us/app/app-swipe/id482494990?mt=8&partnerId=30&siteID=BcMBY/pRbWY), started out as the code you see here. Originally when iOS5 settings shortcuts 

@@ -25,7 +25,11 @@ I had already localised the settings names for the original app into French, Ger
 
 I've not yet upgraded to the latest 5.0 betas, but I'm told that these shortcuts will **no longer work** in future firmware releases.
 
-(When I submitted an enhancement request via Bugreporter mine wasn't the first, **10380471 is the original ID**, please duplicate if you feel your app would benefit from this functionality)
+##Enhancement request
+
+I had submitted an enhancement request to allow notification centre to be used as a way to launch another application. Mine wasn't the first they had received, so please 
+duplicate if you feel your app would benefit from this functionality.
+**10380471 is the original ID**
 
 ##History
 

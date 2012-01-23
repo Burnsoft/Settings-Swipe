@@ -1,8 +1,8 @@
 //
 //  timerAction.h
-//  toilettimer
+//  AppSwipe
 //
-//  Created by Nicholas Burns on 28/08/2011.
+//  Created by Nicholas Burns on 20/01/2012.
 //  Copyright 2011 Burnsoft Ltd. All rights reserved.
 //
 
